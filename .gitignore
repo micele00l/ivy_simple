@@ -119,3 +119,7 @@ cython_debug/
 .DS_Store
 # VS Code settings
 .vscode/
+
+# ESP-IDF settings
+managed_components/
+mmap_generate*.h
