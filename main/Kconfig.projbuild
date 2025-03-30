@@ -1,0 +1,21 @@
+menu "Example Configuration"
+
+    config QWEATHER_REQUEST_KEY
+        string "QWEATHER REQUEST KEY"
+        default "key"
+        help
+            Get weather information from Qweatehr server
+
+    config EXAMPLE_WIFI_SSID
+        string "SSID"
+        default "ssid"
+        help
+            SSID of the WiFi network to connect to
+
+    config EXAMPLE_WIFI_PASSWORD
+        string "Password"
+        default "password"
+        help
+            Password of the WiFi network to connect to
+
+endmenu
