@@ -77,6 +77,12 @@ extern lv_obj_t *ui_netpanel;
 void ui_event_net(lv_event_t *e);
 extern char *url;
 
+// SCREEN:ui_wifi_config
+void ui_wifi_config_screen_init(void);
+extern lv_obj_t *ui_wifi_config;
+extern lv_obj_t *ui_wifi_config_panel;
+void ui_event_wifi_config(lv_event_t *e);
+
 
 void ui_event____initial_actions0(lv_event_t *e);
 extern lv_obj_t *ui____initial_actions0;

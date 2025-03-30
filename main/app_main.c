@@ -36,6 +36,7 @@
 #include "app_weather.h"
 #include "app_animation.h"
 #include "app_power.h"
+#include "app_wifi_config.h"
 
 static const char *TAG = "main";
 static void button_handler(touch_button_handle_t out_handle, touch_button_message_t *out_message, void *arg)

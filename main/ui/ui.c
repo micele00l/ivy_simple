@@ -331,6 +331,7 @@ void ui_init(void)
     ui_home_screen_init();
     ui_face_screen_init();
     ui_net_screen_init();
+    ui_wifi_config_screen_init();
     ui____initial_actions0 = lv_obj_create(NULL);
     lv_obj_add_event_cb(ui____initial_actions0, ui_event____initial_actions0, LV_EVENT_ALL, NULL);
 
@@ -342,6 +343,9 @@ void ui_init(void)
 
     ui_pages[2].page = ui_net;
     ui_pages[2].name = "net";
+
+    ui_pages[3].page = ui_wifi_config;
+    ui_pages[3].name = "wifi_config";
 
 
     lv_disp_load_scr(ui____initial_actions0);
